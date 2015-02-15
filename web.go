@@ -14,7 +14,7 @@ func main() {
 	var (
 		clientID     = "c65e55f08cc310a2804f"
 		clientSecret = "8d3358ea56d08213dbc9d08753d8ee1278058f3e"
-		redirectURL  = "http://app-3a214f62-5196-4ca9-aa63-9f2f90298127.cleverapps.io/"
+		redirectURL  = "http://app-3a214f62-5196-4ca9-aa63-9f2f90298127.cleverapps.io/loauth2callback"
 	)
 
 	secureMux := mux.NewRouter()
