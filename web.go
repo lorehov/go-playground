@@ -46,7 +46,6 @@ func main() {
 	//routes added to mux do not require authentication
 	router.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
 		token := oauth2.GetToken(req)
-		fmt.Fprintf(w, fmt.Sprintf("%s", token))
 		if token == nil || !token.Valid() {
 			fmt.Fprintf(w, "not logged in, or the access token is expired")
 			return
