@@ -8,7 +8,6 @@ import (
 	"github.com/goincremental/negroni-sessions/cookiestore"
 	"github.com/gorilla/mux"
 	"net/http"
-	"os"
 )
 
 func main() {
