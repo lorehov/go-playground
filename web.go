@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/GoIncremental/negroni-oauth2"
+	"github.com/codegangsta/negroni"
+	"github.com/goincremental/negroni-oauth2"
 	"github.com/goincremental/negroni-sessions"
 	"github.com/goincremental/negroni-sessions/cookiestore"
 	"github.com/gorilla/mux"
@@ -60,5 +61,5 @@ func main() {
 
 	n.UseHandler(router)
 
-	n.Run(":3000")
+	n.Run(":" + os.Getenv("PORT"))
 }
