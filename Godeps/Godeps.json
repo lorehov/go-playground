@@ -1,0 +1,5 @@
+{
+	"ImportPath": "github.com/lorekhov/gopg",
+	"GoVersion": "go1.4.1",
+	"Deps": []
+}
