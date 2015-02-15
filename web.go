@@ -61,5 +61,5 @@ func main() {
 
 	n.UseHandler(router)
 
-	n.Run(":" + os.Getenv("PORT"))
+	n.Run("0.0.0.0:8080")
 }
