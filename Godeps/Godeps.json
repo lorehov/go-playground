@@ -1,5 +1,43 @@
 {
 	"ImportPath": "github.com/lorekhov/gopg",
-	"GoVersion": "go1.2.1",
-	"Deps": []
+	"GoVersion": "go1.4.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/GoIncremental/negroni-oauth2",
+			"Rev": "556f42c0809b598c42a22056a95fd8f14aa296b2"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/negroni",
+			"Comment": "v0.1-55-g1dd3ab0",
+			"Rev": "1dd3ab0ff59e13f5b73dcbf70703710aebe50d2f"
+		},
+		{
+			"ImportPath": "github.com/goincremental/negroni-sessions",
+			"Rev": "70fc44629c84b6909bf5c265450f8d7e66658f3e"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "e444e69cbd2e2e3e0749a2f3c717cec491552bbf"
+		},
+		{
+			"ImportPath": "github.com/gorilla/securecookie",
+			"Rev": "5f171f42328bdd573211bb82bdee8f259c4c61ae"
+		},
+		{
+			"ImportPath": "github.com/gorilla/sessions",
+			"Rev": "13c86220d944600e7a6e3de6c87418896ccfbe77"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "59b0df9b1f7abda5aab0495ee54f408daf182ce7"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "721c86aedbb404bcb5a439cd05c1e0a6bf7d8923"
+		}
+	]
 }
